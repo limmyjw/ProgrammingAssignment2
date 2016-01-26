@@ -2,6 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
+## this function gets a matrix, inverts it and caches the result.
 
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -20,6 +21,10 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## this function checks wether the given matrix\is already stored cache
+## if so the getinverse is true and the mesaage is printed
+## if not true, the inverse is calculated
+
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
